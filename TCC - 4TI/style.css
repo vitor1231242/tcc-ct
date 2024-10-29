@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh; /* Define a altura como 100% da altura da viewport */
+    overflow: hidden; /* Garante que não haja rolagem indesejada */
+}
+
+.banner {
+    position: fixed; /* Garante que o banner fique fixo na tela */
+    top: 0;
+    left: 0;
+    width: 100vw; /* Ocupa a largura total da viewport */
+    height: 100vh; /* Ocupa a altura total da viewport */
+    overflow: hidden; /* Garante que a imagem não cause rolagem */
+    z-index: -1; /* Coloca o banner atrás dos outros conteúdos */
+}
+
+.banner img {
+    position: absolute; /* Faz com que a imagem ocupe o banner */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Faz a imagem cobrir toda a área do banner mantendo a proporção */
+    object-position: center; /* Centraliza a imagem */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px; /* Espaçamento entre os botões */
+    position: absolute;
+    top: 50%; /* Ajuste para centralizar verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta a posição para centralização exata */
+    z-index: 1; /* Garante que os botões estejam sobre a imagem de fundo */
+}
+
+.botao-redondo, .botao-redondo2 {
+    border-radius: 50%; /* Define o raio para 50% para tornar o botão redondo */
+    width: 20vw; /* Define o tamanho relativo à largura da viewport */
+    height: 20vw; /* Define o tamanho relativo à largura da viewport */
+    max-width: 250px; /* Define o tamanho máximo */
+    max-height: 250px; /* Define o tamanho máximo */
+    background-color: #a3d8ff; /* Cor de fundo do botão */
+    color: #ffffff; /* Cor do texto */
+    font-size: 16px; /* Tamanho da fonte */
+    border: none; /* Remove a borda */
+    cursor: pointer; /* Cursor de ponteiro quando passa por cima */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.botao-redondo2 {
+    background-color: #da7aba; /* Cor de fundo do segundo botão */
+}
+
+.botao-redondo:hover, .botao-redondo2:hover {
+    transform: scale(1.1); /* Aumenta o tamanho do botão em 10% quando o mouse passa por cima */
+}
+
+.icon {
+    width: 50%;
+    height: auto;
+}
+
+.footer-buttons {
+    position: fixed; /* Fixa os ícones no rodapé */
+    bottom: 20px; /* Posiciona os ícones próximos ao rodapé */
+    right: 20px; /* Alinha os ícones à direita da página */
+    display: flex;
+    gap: 20px; /* Espaçamento entre os ícones */
+    z-index: 1; /* Garante que os ícones estejam sobre a imagem de fundo */
+}
+
+.footer-icon {
+    width: 10vw; /* Define o tamanho relativo à largura da viewport */
+    max-width: 50px; /* Define o tamanho máximo */
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .botao-redondo, .botao-redondo2 {
+        width: 25vw; /* Ajuste de tamanho para telas menores */
+        height: 25vw;
+    }
+
+    .footer-icon {
+        width: 15vw; /* Ajuste de tamanho para telas menores */
+    }
+}
+@media (max-width: 480px) {
+    .botao-redondo, .botao-redondo2 {
+        width: 25vw; /* Ajuste de tamanho para telas menores */
+        height: 25vw;
+    }
+
+    .footer-icon {
+        width: 15vw; /* Ajuste de tamanho para telas menores */
+    }
+
+   
+    #teste{
+        background-image: url('./img/background.jpg');
+        position: absolute; /* Faz com que a imagem ocupe o banner */
+        top: 0;
+        left: 0;
+        width: 90%;
+        height: 100%;
+        object-fit: cover; 
+        object-position: center;/* Faz a imagem cobrir toda a área do banner mantendo a proporção 
+         /* Centraliza a imagem */
+    }
+}
