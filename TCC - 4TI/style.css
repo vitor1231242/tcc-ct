@@ -112,6 +112,6 @@ body {
 
 @media screen and (max-width: 576px) {
     #teste {
-      content: url('/assets/img/banner.png'); /* Imagem para mobile */
+      content: url('imagens/cantinho-kids.jpg'); /* Imagem para mobile */
     }
   }
