@@ -104,5 +104,8 @@ body {
     }
 
    
-    
+    #teste{
+        background-image: url('imagens/cantinho-kids.jpg');
+        
+    }
 }
