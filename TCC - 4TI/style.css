@@ -104,15 +104,5 @@ body {
     }
 
    
-    #teste{
-        background-image: url('imagens/gif-kids.gif');
-        position: absolute; /* Faz com que a imagem ocupe o banner */
-        top: 0;
-        left: 0;
-        width: 90%;
-        height: 100%;
-        object-fit: cover; 
-        object-position: center;/* Faz a imagem cobrir toda a área do banner mantendo a proporção 
-         /* Centraliza a imagem */
-    }
+    
 }
