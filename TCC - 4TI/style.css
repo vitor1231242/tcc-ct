@@ -109,3 +109,9 @@ body {
         
     }
 }
+
+@media screen and (max-width: 576px) {
+    #teste {
+      content: url('/assets/img/banner.png'); /* Imagem para mobile */
+    }
+  }
