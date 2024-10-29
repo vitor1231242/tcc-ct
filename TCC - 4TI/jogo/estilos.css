@@ -1,0 +1,84 @@
+
+bbody, html {
+    background-color: #9bfbff;
+    height: 10%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container {
+    background-color: #9bfbff;
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+}
+
+img {
+    background-color: #9bfbff;
+    position: center;
+    top: 0;
+    left: 0%;
+    transform: translateX( 0%);
+
+}
+
+
+na duvida apagar em cima
+
+
+
+body {
+    background-color: #9bfbff;
+}
+
+
+.texto-menor {
+    font-size: 13px;
+}
+
+.divs-facilidades {
+    width: 325px;
+}
+
+.div-novidades {
+    width: 325px;
+}
+
+.botao-lilas {
+    background-color: #ff4b4b;
+}
+
+.verde-limao {
+    color: #ffffff;
+}
+
+@media (min-width: 768px) {
+    .div-novidades {
+        width: 696px;
+        background-color: #F9E698;
+    }
+}
+
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #9bfbff; /* Cor de fundo do botão */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatsapp-btn img {
+    width: 70%; /* Tamanho do ícone do WhatsApp */
+}
+   
+
+

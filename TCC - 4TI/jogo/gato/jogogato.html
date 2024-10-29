@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Infantil</title>
+    <link rel="icon" href="img/favicon.ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="text-center my-4">Forme a Palavra</h1>
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <div class="imagem-palavra">
+                    <img src="img/normal.png" alt="Imagem de um cachorro">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="letras-disponiveis my-4">
+                    <h3>Letras Disponíveis</h3>
+                    <div class="letras d-flex justify-content-center"></div>
+                </div>
+                <div class="espaco-letras my-4">
+                    <h3>Forme a Palavra</h3>
+                    <div class="palavra d-flex justify-content-center"></div>
+                </div>
+                <div id="feedback" class="text-center"></div> <!-- Elemento para mostrar feedback -->
+                <button onclick="verificarPalavra()" class="btn btn-primary btn-block">Verificar</button>
+                <button onclick="novoJogo()" class="btn btn-success btn-block">Novo Jogo</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+    <a href="/TCC - 4TI/jogo/jogo.html" target="_parent" class="whatsapp-btn">
+        <img src="img/voltar.png" alt="Ícone do WhatsApp">
+        </a>
+</body>
+
+</html>

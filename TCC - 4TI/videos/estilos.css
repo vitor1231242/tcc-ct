@@ -1,0 +1,64 @@
+html, body {
+    background-color: #9bfbff; /* Define a cor de fundo apenas aqui */
+    height: 100%; /* Garante que a altura do fundo cubra toda a página */
+    margin: 0; /* Remove margens padrão */
+}
+
+.container {
+    position: relative;
+    width: 100%; /* Faz a container ocupar toda a largura disponível */
+    max-width: 1200px; /* Largura máxima opcional */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinhamento correto */
+}
+
+img {
+    display: block; /* Remove espaço indesejado abaixo da imagem */
+    max-width: 100%; /* Garante que as imagens não excedam a largura do container */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.texto-menor {
+    font-size: 13px;
+}
+
+.divs-facilidades {
+    width: 325px;
+}
+
+.div-novidades {
+    width: 325px;
+}
+
+.botao-lilas {
+    background-color: #ff4b4b; /* Cor do botão lilás */
+}
+
+.verde-limao {
+    color: #ffffff; /* Cor do texto verde limão */
+}
+
+@media (min-width: 768px) {
+    .div-novidades {
+        width: 696px;
+        background-color: #F9E698; /* Mantenha esta cor onde necessário */
+    }
+}
+
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent; /* Cor de fundo do botão */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatsapp-btn img {
+    width: 70%; /* Tamanho do ícone do WhatsApp */
+}
