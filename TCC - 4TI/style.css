@@ -105,7 +105,7 @@ body {
 
    
     #teste{
-        background-image: url('./img/background.jpg');
+        background-image: url('');
         position: absolute; /* Faz com que a imagem ocupe o banner */
         top: 0;
         left: 0;
