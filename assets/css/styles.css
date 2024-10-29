@@ -68,13 +68,13 @@ img {
 /* Imagens para diferentes dispositivos */
 @media screen and (max-width: 576px) {
   .login__img {
-    content: url('assets/img/banner-mobile.png'); /* Imagem para mobile */
+    content: url('/assets/img/banner.png'); /* Imagem para mobile */
   }
 }
 
 @media screen and (min-width: 577px) and (max-width: 1024px) {
   .login__img {
-    content: url('assets/img/banner-tablet.png'); /* Imagem para tablets */
+    content: url('/assets/img/banner.png'); /* Imagem para tablets */
   }
 }
 
