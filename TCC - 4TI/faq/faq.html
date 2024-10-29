@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="wrapper">
+        <a href="/inicio.html"><img src="CantinhoKids.png" alt="Configurações" class="footer-icon"></a>
+    </div>
+      <h1>Perguntas Frequentes</p>
+
+      <div class="faq">
+        <button class="accordion">
+          O que é o Cantinho Kids?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            O Cantinho Kids é um site que oferece vídeos e jogos interativos voltados para crianças, proporcionando uma experiência divertida e educativa. É um espaço onde as crianças podem aprender e se entreter ao mesmo tempo!
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          Como Funciona?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            
+O Cantinho Kids funciona como uma plataforma online onde as crianças podem acessar uma variedade de vídeos e jogos. Os usuários podem navegar pelas categorias disponíveis, escolher o conteúdo que desejam assistir ou jogar, e participar de atividades interativas. Os vídeos são selecionados para serem educativos e divertidos, enquanto os jogos incentivam o aprendizado por meio de brincadeiras. Além disso, o site pode oferecer uma interface amigável, facilitando a navegação para os pequenos usuários.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          Quais são os principais desafios do Cantinho Kids?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            O Cantinho Kids se propõe a proporcionar às crianças um ambiente seguro e divertido, onde elas podem explorar, aprender e se entreter. Através de vídeos e jogos interativos, o site oferece experiências educativas que estimulam a criatividade e o desenvolvimento cognitivo. Além disso, busca promover a socialização e o aprendizado em um formato lúdico, ajudando as crianças a absorverem conhecimento de maneira prazerosa e envolvente.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          O Cantinho Kids é seguro para as crianças?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            Sim, todas as atividades e conteúdos são cuidadosamente selecionados para garantir que sejam seguros e apropriados para crianças.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          O Cantinho Kids tem aplicativos para dispositivos móveis?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            Atualmente, o site é para qualquer dispositivo, mas não temos um aplicativo específico. Você pode acessar o Cantinho Kids diretamente pelo navegador do seu celular ou tablet ou desktop.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          O conteúdo é atualizado regularmente?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            Sim, estamos sempre adicionando novos vídeos e jogos para manter o conteúdo fresco e interessante para as crianças.
+          
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          this.parentElement.classList.toggle("active");
+
+          var pannel = this.nextElementSibling;
+
+          if (pannel.style.display === "block") {
+            pannel.style.display = "none";
+          } else {
+            pannel.style.display = "block";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
