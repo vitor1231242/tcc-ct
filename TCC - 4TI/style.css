@@ -108,6 +108,9 @@ body {
         background-image: url('imagens/cantinho-kids.jpg');
         
     }
+    .login__title{
+        color: black;
+    }
 }
 
 @media screen and (max-width: 576px) {
