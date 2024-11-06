@@ -68,7 +68,7 @@ body.dark-mode .toggle {
     width: 24px;
     height: 24px;
     border-radius: 50%;
-    background-color: rgb(255, 12, 190);
+    background-color: rgb(228, 23, 122);
     display: inline-block;
     position: absolute;
     left: 5px;
@@ -83,8 +83,8 @@ input[type="checkbox"] {
 
 input[type="checkbox"]:checked + div .toggle-c {
     left: 30px;
-    background-color: #30305c;
-    border-color: #30305c;
+    background-color: #2499c7;
+    border-color: #1e00ff;
 }
 
 input[type=radio] {

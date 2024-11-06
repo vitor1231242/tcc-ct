@@ -17,7 +17,7 @@
   align-items: center;
   padding: 25px;
   min-height: 100vh;
-  background: linear-gradient(90deg, #2ecc71 60%, #27ae60 40.1%);
+  background: linear-gradient(90deg, #00aeff 60%, #00aeff 40.1%);
 }
 
 .container form {
@@ -84,14 +84,14 @@
   width: 100%;
   padding: 12px;
   font-size: 17px;
-  background: #27ae60;
+  background: #00aeff;
   color: #fff;
   margin-top: 5px;
   cursor: pointer;
 }
 
 .container form .submit-btn:hover {
-  background: #2ecc71;
+  background: #00aeff;
 }
 
 /* Estilo para a mensagem de confirmação */
@@ -101,7 +101,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(0, 128, 0, 0.9);
+  background-color: #00aeff;
   color: #fff;
   padding: 20px;
   border-radius: 10px;
